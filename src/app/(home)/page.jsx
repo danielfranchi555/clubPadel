@@ -25,7 +25,7 @@ export default async function Home({ searchParams }) {
 
   return (
     <main>
-      canchas:
+      Canchas:
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 container">
         {data.map((item) => (
           <div key={item}>
